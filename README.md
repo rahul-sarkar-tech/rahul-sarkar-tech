@@ -39,8 +39,7 @@
 </p>
 
 ---
-
-## 🏆 GitHub Achievements
+ ## 🏆 GitHub Achievements
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=RahulSarkarCyber&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10" />
@@ -103,8 +102,8 @@ Speed > Perfection
 
 ## 📬 Connect
 
-- GitHub: https://github.com/RahulSarkarCyber  
-- Instagram: (add your handle)
+- GitHub: https://github.com/rahul-sarkar-tech  
+
 
 ---
 
