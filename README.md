@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Rahul+Sarkar;Founder+%40+RootThrive;Web+%2B+Mobile+App+Systems+Builder;I+Build+Revenue+Generating+Products" />
 </p>
-
+ 
 ---
 
 # 👋 Rahul Sarkar
