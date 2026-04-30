@@ -2,14 +2,14 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Rahul+Sarkar;Founder+%40+RootThrive;Web+%2B+Mobile+System+Builder;I+Build+Revenue+Focused+Products" />
-</p> 
+</p>
 
 ---
 
 # 👋 Rahul Sarkar
 
 <p align="center">
-  🚀 Founder @ RootThrive | 💼 Web & App Developer | ⚡ System Builder  
+  🚀 Founder @ RootThrive | ⚡ System Builder  
 </p>
 
 ---
@@ -24,8 +24,8 @@
 
 ## 🚀 Work
 
-* Lead generation websites for local businesses
-* Automation systems (CRM, tracking, notifications)
+* Lead generation systems for local businesses
+* Automation tools (CRM, tracking, notifications)
 * Mobile apps for business operations
 * Fast-deployment templates for scaling
 
@@ -33,13 +33,13 @@
 
 ## ⚙️ Tech Stack
 
-### 🌐 Web Development
+### 🌐 Web
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,nextjs,react,firebase,php" />
 </p>
 
-### 📱 Mobile App Development
+### 📱 Mobile
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=flutter,react" />
@@ -64,7 +64,7 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RahulSarkarCyber&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=0" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RahulSarkarCyber&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0" />
 </p>
 
 <p align="center">
@@ -72,40 +72,43 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSarkarCyber&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=0" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSarkarCyber&layout=compact&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=0" />
 </p>
 
 ---
 
 ## 🚀 Projects
 
-### 🏗️ Real Estate Lead Generation System (Web)
+### 🏗️ Real Estate Lead Generation System
 
-* Lead capture + booking system
-* Conversion-focused UI
+* Lead capture + booking flow
 * Built for local business growth
 
-### 📱 Business Automation App (Mobile)
+### 📱 Business Automation App
 
-* Client data tracking
-* Lead management
-* Notifications & workflow automation
+* Client tracking + lead management
+* Notification-based workflow
 
-### 🧩 Website & App Templates
+### 🧩 Scalable Templates
 
 * Ready-to-use systems
-* Built for fast deployment & scaling
+* Built for fast deployment
+
+---
+
+## 📌 Note
+
+⚠️ Most of my work is in private/client repositories.
+✔️ Private contributions are included in stats where possible.
 
 ---
 
 ## 📈 Philosophy
 
-```
-Execution > Theory  
-Systems > Hard Work  
-Revenue > Vanity  
-Speed > Perfection  
-```
+Execution > Theory
+Systems > Hard Work
+Revenue > Vanity
+Speed > Perfection
 
 ---
 
