@@ -114,10 +114,10 @@ When constructing production platforms, I build around a strict set of software 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td align="center" valign="top" width="50%">
-      <img src="https://streak-stats.demolab.com?user=RahulSarkarCyber&theme=dark&background=0f0f11&fire=ff3e3e&ring=ff3e3e&currStreakLabel=ff3e3e&hide_border=true" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com?user=rahul-sarkar-tech&theme=dark&background=0f0f11&fire=ff3e3e&ring=ff3e3e&currStreakLabel=ff3e3e&hide_border=true" alt="GitHub Streak" />
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=RahulSarkarCyber&bg_color=0f0f11&color=ff3e3e&line=ff3e3e&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=rahul-sarkar-tech&bg_color=0f0f11&color=ff3e3e&line=ff3e3e&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
     </td>
   </tr>
 </table>
