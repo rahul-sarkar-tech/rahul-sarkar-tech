@@ -16,7 +16,7 @@
   <p><strong>Systems Architect & Tech Founder specializing in ultra-performant Web & Mobile architectures.</strong></p>
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 🧠 Core Competencies & Philosophy
 
@@ -45,7 +45,7 @@ I build highly scalable, close-to-metal digital systems that directly accelerate
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 🚀 Featured Systems & Implementations
 
@@ -58,7 +58,7 @@ I build highly scalable, close-to-metal digital systems that directly accelerate
 *   **🛠️ Tech Stack**: `NestJS` • `TypeORM` • `PostgreSQL` • `Passport JWT` • `Razorpay Webhooks` • `Flutter` • `Riverpod`
 *   📂 **Source Code**: [📱 Frontend Client App](https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-frontend) | [⚙️ Backend High-Scale Engine](https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-backend)
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ### 📦 RootDrop P2P Transfer Engine
 > **An open-source, high-speed P2P file sharing engine for cross-platform devices**
@@ -69,7 +69,7 @@ I build highly scalable, close-to-metal digital systems that directly accelerate
 *   **🛠️ Tech Stack**: `Flutter` • `Dart` • `TCP/UDP Sockets` • `P2P Network Discovery` • `Systems Programming`
 *   📂 **Source Code**: [📦 Open-Source Repository](https://github.com/rahul-sarkar-tech/rootdrop)
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 🛡️ Systems Engineering & Architectural Guardrails
 
@@ -80,7 +80,7 @@ When constructing production platforms, I build around a strict set of software 
 *   **🔒 Hardened Security Posture**: Enforcing secure environment isolation, sanitizing database queries, whitelisting CORS origins, implementing strict Passport JWT lifespans, and stripping all hardcoded secrets from git history.
 *   **🏊 Connection Pool Optimization**: Tuning database handles, TCP window buffers, loopback Unix sockets, and client connections proactively to scale system efficiency under heavy concurrency.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## ⚙️ Systems Engineering Stack
 
@@ -107,34 +107,28 @@ When constructing production platforms, I build around a strict set of software 
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 📊 Live GitHub Engine Diagnostics
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td align="center" valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=RahulSarkarCyber&show_icons=true&title_color=ff3e3e&text_color=e1e1e6&icon_color=ff3e3e&bg_color=0f0f11&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0" alt="GitHub Stats" />
+      <img src="https://streak-stats.demolab.com?user=RahulSarkarCyber&theme=dark&background=0f0f11&fire=ff3e3e&ring=ff3e3e&currStreakLabel=ff3e3e&hide_border=true" alt="GitHub Streak" />
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="https://streak-stats.demolab.com?user=RahulSarkarCyber&theme=dark&background=0f0f11&fire=ff3e3e&ring=ff3e3e&currStreakLabel=ff3e3e&hide_border=true" alt="GitHub Streak" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=RahulSarkarCyber&bg_color=0f0f11&color=ff3e3e&line=ff3e3e&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
     </td>
   </tr>
 </table>
 
-<br />
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulSarkarCyber&layout=compact&title_color=ff3e3e&text_color=e1e1e6&icon_color=ff3e3e&bg_color=0f0f11&hide_border=true&count_private=true&cache_seconds=0" alt="Top Languages" />
-</p>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 📦 Other Scalable Architectures
 
 *   🤖 **Business Pipeline Automation App**: A custom, cross-platform mobile CRM app built with Flutter featuring offline support, client conversion pipelines, and local event triggers.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 ## 📬 Connect & Collaborate
 
@@ -157,7 +151,7 @@ Get in touch for systems architecture consulting, custom high-performance develo
 
 <br />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/red.png" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6daec5c1.gif" width="100%" />
 
 <div align="center">
   <strong>"I design systems that power entire businesses, not just applications."</strong>
