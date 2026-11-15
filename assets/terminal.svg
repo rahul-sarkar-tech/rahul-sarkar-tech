@@ -1,0 +1,73 @@
+<svg width="100%" height="auto" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="term_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090B10" />
+      <stop offset="100%" stop-color="#050609" />
+    </linearGradient>
+    <linearGradient id="term_border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A55" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#2D111A" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF2A55" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="ascii_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF5757" />
+      <stop offset="100%" stop-color="#C7002E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect width="1200" height="330" rx="14" fill="url(#term_bg)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="13.25" fill="none" stroke="url(#term_border)" stroke-width="1.5" />
+
+  <!-- Window Header Bar -->
+  <rect width="1200" height="38" rx="14" fill="#131722" />
+  <rect y="24" width="1200" height="14" fill="#131722" />
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#1F2433" stroke-width="1" />
+
+  <!-- macOS Window Traffic Light Controls -->
+  <circle cx="24" cy="19" r="6" fill="#FF5F56" />
+  <circle cx="44" cy="19" r="6" fill="#FFBD2E" />
+  <circle cx="64" cy="19" r="6" fill="#27C93F" />
+
+  <!-- Terminal Window Title -->
+  <text x="600" y="24" fill="#94A3B8" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" font-weight="600" text-anchor="middle">sarkar@rootthrive-core: ~ (zsh)</text>
+
+  <!-- Left Column: Stylized ASCII System Monogram -->
+  <g transform="translate(48, 72)">
+    <text font-family="'SF Mono', 'Fira Code', monospace" font-size="13" font-weight="900" fill="url(#ascii_grad)" xml:space="preserve">
+      <tspan x="0" y="20"> ██████╗  ███████╗  ██████╗  ████████╗ </tspan>
+      <tspan x="0" y="38"> ██╔══██╗ ╚══███╔╝  ██╔══██╗ ╚══██╔══╝ </tspan>
+      <tspan x="0" y="56"> ██████╔╝   ███╔╝   ██████╔╝    ██║    </tspan>
+      <tspan x="0" y="74"> ██╔══██╗  ███╔╝    ██╔══██╗    ██║    </tspan>
+      <tspan x="0" y="92"> ██║  ██║ ███████╗  ██║  ██║    ██║    </tspan>
+      <tspan x="0" y="110"> ╚═╝  ╚═╝ ╚══════╝  ╚═╝  ╚═╝    ╚═╝    </tspan>
+      <tspan x="0" y="140" fill="#64748B" font-size="11"> ROOTTHRIVE SYSTEMS // SARKAR-OS </tspan>
+      <tspan x="0" y="160" fill="#FF2A55" font-size="10"> ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ </tspan>
+    </text>
+  </g>
+
+  <!-- Vertical Divider in Terminal -->
+  <line x1="390" y1="55" x2="390" y2="305" stroke="#1E2333" stroke-width="1.2" stroke-dasharray="4 4" />
+
+  <!-- Right Column: Neofetch System Information -->
+  <g transform="translate(420, 68)">
+    <text font-family="'SF Mono', 'Fira Code', monospace" font-size="13.5" xml:space="preserve">
+      <tspan x="0" y="20" fill="#FF2A55" font-weight="700">rahul@rootthrive</tspan><tspan fill="#64748B"> ~ </tspan><tspan fill="#F8FAFC" font-weight="500">neofetch --systems-runtime</tspan>
+      
+      <tspan x="0" y="48" fill="#FF6B6B" font-weight="600">Identity    :</tspan><tspan fill="#F1F5F9" font-weight="500">  Rahul Sarkar (Founder &amp; Systems Architect)</tspan>
+      <tspan x="0" y="72" fill="#FF6B6B" font-weight="600">Company     :</tspan><tspan fill="#F1F5F9" font-weight="500">  RootThrive (rootthrive.in)</tspan>
+      <tspan x="0" y="96" fill="#FF6B6B" font-weight="600">Core Stack  :</tspan><tspan fill="#F1F5F9" font-weight="500">  NestJS • Next.js 16 • Flutter (Riverpod) • Dart</tspan>
+      <tspan x="0" y="120" fill="#FF6B6B" font-weight="600">Persistence :</tspan><tspan fill="#F1F5F9" font-weight="500">  PostgreSQL (100 Sockets Pool) • TypeORM • Supabase</tspan>
+      <tspan x="0" y="144" fill="#FF6B6B" font-weight="600">Throughput  :</tspan><tspan fill="#38EF7D" font-weight="700">  8,884 Req/Sec </tspan><tspan fill="#94A3B8">(Avg Latency: 10.75ms • Zero V8 Lag)</tspan>
+      <tspan x="0" y="168" fill="#FF6B6B" font-weight="600">P2P Network :</tspan><tspan fill="#38EF7D" font-weight="700">  45 MB/s+ </tspan><tspan fill="#94A3B8">(RootDrop dynamic chunking over Wi-Fi)</tspan>
+      <tspan x="0" y="192" fill="#FF6B6B" font-weight="600">Fleet Scale :</tspan><tspan fill="#F1F5F9" font-weight="500">  50+ Active Production &amp; Open-Source Repositories</tspan>
+
+      <tspan x="0" y="224" fill="#FF2A55" font-weight="700">rahul@rootthrive</tspan><tspan fill="#64748B"> ~ </tspan><tspan fill="#F8FAFC" font-weight="600">deploy --fleet=all --status=live</tspan>
+    </text>
+
+    <!-- Animated Blinking Terminal Cursor -->
+    <rect x="330" y="278" width="8" height="15" fill="#FF2A55">
+      <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

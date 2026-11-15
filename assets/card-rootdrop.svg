@@ -1,0 +1,46 @@
+<svg width="100%" height="auto" viewBox="0 0 580 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card_bg_3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111B28" />
+      <stop offset="100%" stop-color="#080C14" />
+    </linearGradient>
+    <linearGradient id="card_border_3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02569B" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#0175C2" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00B4D8" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="580" height="210" rx="12" fill="url(#card_bg_3)" />
+  <rect x="0.75" y="0.75" width="578.5" height="208.5" rx="11.25" fill="none" stroke="url(#card_border_3)" stroke-width="1.5" />
+
+  <!-- Category Tag -->
+  <rect x="24" y="20" width="180" height="22" rx="4" fill="#0E2336" stroke="#00B4D8" stroke-opacity="0.4" stroke-width="1" />
+  <text x="32" y="35" fill="#00B4D8" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" letter-spacing="1">📦 45 MB/s+ • P2P ENGINE</text>
+
+  <!-- Title & Headline -->
+  <text x="24" y="70" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900">RootDrop</text>
+  <text x="135" y="70" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500">Cross-Platform File Sharing Protocol</text>
+
+  <!-- Summary Description -->
+  <text x="24" y="98" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">Blazing-fast local transfer achieving 45MB/s+ over Wi-Fi with custom socket</text>
+  <text x="24" y="118" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">buffering, chunk-based streaming, and decentralized mDNS peer discovery.</text>
+
+  <!-- Tech Stack Badges -->
+  <g transform="translate(24, 142)">
+    <rect x="0" y="0" width="70" height="22" rx="4" fill="#152636" />
+    <text x="35" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Flutter</text>
+
+    <rect x="78" y="0" width="60" height="22" rx="4" fill="#152636" />
+    <text x="108" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Dart</text>
+
+    <rect x="146" y="0" width="115" height="22" rx="4" fill="#152636" />
+    <text x="203.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">TCP/UDP Sockets</text>
+
+    <rect x="269" y="0" width="110" height="22" rx="4" fill="#152636" />
+    <text x="324" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">P2P Discovery</text>
+  </g>
+
+  <!-- Bottom CTA -->
+  <text x="24" y="190" fill="#00B4D8" font-family="'SF Mono', monospace" font-size="11" font-weight="700">EXPLORE P2P REPO &amp; WEB PORTAL →</text>
+</svg>

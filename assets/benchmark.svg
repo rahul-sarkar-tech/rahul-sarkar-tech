@@ -1,0 +1,48 @@
+<svg width="100%" height="auto" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bench_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090B10" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+    <linearGradient id="bench_bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A55" />
+      <stop offset="70%" stop-color="#FF5757" />
+      <stop offset="100%" stop-color="#FFA8A8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="180" rx="14" fill="url(#bench_bg)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="178.5" rx="13.25" fill="none" stroke="#262D3D" stroke-width="1.5" />
+
+  <!-- Title Bar -->
+  <text x="36" y="32" fill="#FF5757" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="700" letter-spacing="1.5">⚡ HTTP CONCURRENCY BENCHMARK // PEAK THROUGHPUT &amp; V8 EVENT LOOP</text>
+
+  <!-- Baseline Bar -->
+  <g transform="translate(36, 52)">
+    <text x="0" y="15" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Standard Node.js / Sync stdout logging</text>
+    <rect x="290" y="2" width="45" height="18" rx="4" fill="#262D3D" />
+    <text x="345" y="15" fill="#64748B" font-family="'SF Mono', monospace" font-size="11" font-weight="600">142 req/s (Baseline)</text>
+  </g>
+
+  <!-- RootThrive High-Concurrency Bar -->
+  <g transform="translate(36, 92)">
+    <text x="0" y="20" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">RootThrive Tuned Engine (PgPool + V8)</text>
+    <rect x="290" y="4" width="620" height="24" rx="6" fill="url(#bench_bar)">
+      <!-- Subtle glow pulse -->
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite" />
+    </rect>
+    <text x="925" y="21" fill="#FFFFFF" font-family="'SF Mono', monospace" font-size="13.5" font-weight="900">8,884 req/s</text>
+  </g>
+
+  <!-- Badges at bottom -->
+  <g transform="translate(326, 140)">
+    <rect x="0" y="0" width="165" height="24" rx="5" fill="#2E1019" stroke="#FF2A55" stroke-opacity="0.4" stroke-width="1" />
+    <text x="82.5" y="16" fill="#FF5757" font-family="'SF Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">▲ +6,100% THROUGHPUT</text>
+
+    <rect x="180" y="0" width="150" height="24" rx="5" fill="#14241B" stroke="#38EF7D" stroke-opacity="0.4" stroke-width="1" />
+    <text x="255" y="16" fill="#38EF7D" font-family="'SF Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">⚡ 10.75ms LATENCY</text>
+
+    <rect x="345" y="0" width="170" height="24" rx="5" fill="#151A26" stroke="#4A72FF" stroke-opacity="0.4" stroke-width="1" />
+    <text x="430" y="16" fill="#8BB2FF" font-family="'SF Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">🔒 0.0ms V8 EVENT LAG</text>
+  </g>
+</svg>

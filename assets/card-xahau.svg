@@ -1,0 +1,46 @@
+<svg width="100%" height="auto" viewBox="0 0 580 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card_bg_4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141420" />
+      <stop offset="100%" stop-color="#090910" />
+    </linearGradient>
+    <linearGradient id="card_border_4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#3B1C54" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+
+  <rect width="580" height="210" rx="12" fill="url(#card_bg_4)" />
+  <rect x="0.75" y="0.75" width="578.5" height="208.5" rx="11.25" fill="none" stroke="url(#card_border_4)" stroke-width="1.5" />
+
+  <!-- Category Tag -->
+  <rect x="24" y="20" width="180" height="22" rx="4" fill="#291638" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1" />
+  <text x="32" y="35" fill="#C084FC" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" letter-spacing="1">🪙 WEB3 DAPP • XRPL</text>
+
+  <!-- Title & Headline -->
+  <text x="24" y="70" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900">Xahau xMerch</text>
+  <text x="180" y="70" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500">Decentralized Web3 Commerce</text>
+
+  <!-- Summary Description -->
+  <text x="24" y="98" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">Non-custodial Xaman wallet signing (QR / deep link), instant 1 XAH payment</text>
+  <text x="24" y="118" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">settlement on Xahau Testnet, and real-time on-chain ledger confirmation.</text>
+
+  <!-- Tech Stack Badges -->
+  <g transform="translate(24, 142)">
+    <rect x="0" y="0" width="85" height="22" rx="4" fill="#241B33" />
+    <text x="42.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">TypeScript</text>
+
+    <rect x="92" y="0" width="82" height="22" rx="4" fill="#241B33" />
+    <text x="133" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Next.js 16</text>
+
+    <rect x="181" y="0" width="105" height="22" rx="4" fill="#241B33" />
+    <text x="233.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Xahau Network</text>
+
+    <rect x="293" y="0" width="95" height="22" rx="4" fill="#241B33" />
+    <text x="340.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Xaman SDK</text>
+  </g>
+
+  <!-- Bottom CTA -->
+  <text x="24" y="190" fill="#C084FC" font-family="'SF Mono', monospace" font-size="11" font-weight="700">ACCESS WEB3 DAPP REPOSITORY →</text>
+</svg>

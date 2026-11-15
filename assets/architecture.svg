@@ -1,0 +1,80 @@
+<svg width="100%" height="auto" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arch_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090D" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+    <linearGradient id="arch_border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A55" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#1E2333" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF2A55" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="box_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141824" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0B0E17" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="center_box_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24101A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#120A0F" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="pipe_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A55" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#FF5757" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FF2A55" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="240" rx="14" fill="url(#arch_bg)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="13.25" fill="none" stroke="url(#arch_border)" stroke-width="1.5" />
+
+  <!-- Connecting Conduits / Pipes -->
+  <line x1="370" y1="120" x2="430" y2="120" stroke="url(#pipe_grad)" stroke-width="2.5" stroke-dasharray="6 4" />
+  <line x1="770" y1="120" x2="830" y2="120" stroke="url(#pipe_grad)" stroke-width="2.5" stroke-dasharray="6 4" />
+
+  <!-- Animated Data Packets flowing -->
+  <circle cx="370" cy="120" r="4.5" fill="#FF5757">
+    <animate attributeName="cx" values="370;430" dur="1.4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="770" cy="120" r="4.5" fill="#FF5757">
+    <animate attributeName="cx" values="770;830" dur="1.4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Node 1: Ingestion & Growth -->
+  <g transform="translate(40, 30)">
+    <rect width="330" height="180" rx="10" fill="url(#box_bg)" stroke="#262D3D" stroke-width="1.2" />
+    <rect x="16" y="16" width="160" height="22" rx="4" fill="#1C2230" />
+    <text x="24" y="31" fill="#94A3B8" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" font-weight="700" letter-spacing="1">01 // INGESTION &amp; CRM</text>
+    <text x="18" y="70" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Offline &amp; Lead Ingestion</text>
+    <text x="18" y="96" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• WhatsApp Cloud API &amp; Webhooks</text>
+    <text x="18" y="118" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• Multi-Agent Shared Inboxes</text>
+    <text x="18" y="140" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• Hyperlocal Commerce Dispatch</text>
+    <text x="18" y="164" fill="#FF6B6B" font-family="'SF Mono', monospace" font-size="10.5" font-weight="600">INPUT: REALTIME WEBHOOK PIPELINE</text>
+  </g>
+
+  <!-- Node 2: Core Scalable Engine (Highlighted) -->
+  <g transform="translate(435, 20)">
+    <rect width="330" height="200" rx="12" fill="url(#center_box_bg)" stroke="#FF2A55" stroke-width="1.8" />
+    <rect x="16" y="16" width="180" height="24" rx="4" fill="#3D141F" />
+    <text x="24" y="32" fill="#FF5757" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="700" letter-spacing="1">02 // ROOTTHRIVE CORE</text>
+    <text x="18" y="74" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800">High-Concurrency Engine</text>
+    <text x="18" y="102" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="13">• <tspan font-weight="700" fill="#38EF7D">8,884 Req/Sec</tspan> NestJS Gateway</text>
+    <text x="18" y="125" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="13">• Zero-Blocking V8 Event Loop</text>
+    <text x="18" y="148" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="13">• 100-Socket PostgreSQL Pool</text>
+    <text x="18" y="174" fill="#FF5757" font-family="'SF Mono', monospace" font-size="11" font-weight="700">LATENCY: 10.75ms PEAK EFFICIENCY</text>
+  </g>
+
+  <!-- Node 3: Edge & Clients -->
+  <g transform="translate(830, 30)">
+    <rect width="330" height="180" rx="10" fill="url(#box_bg)" stroke="#262D3D" stroke-width="1.2" />
+    <rect x="16" y="16" width="160" height="22" rx="4" fill="#1C2230" />
+    <text x="24" y="31" fill="#94A3B8" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" font-weight="700" letter-spacing="1">03 // REALTIME EDGE</text>
+    <text x="18" y="70" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Native Mobile &amp; Sockets</text>
+    <text x="18" y="96" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• Flutter iOS &amp; Android (Riverpod)</text>
+    <text x="18" y="118" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• RootDrop P2P Sockets (<tspan font-weight="700" fill="#38EF7D">45MB/s+</tspan>)</text>
+    <text x="18" y="140" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">• Realtime Delivery Dispatch</text>
+    <text x="18" y="164" fill="#FF6B6B" font-family="'SF Mono', monospace" font-size="10.5" font-weight="600">CLIENTS: ZERO-LATENCY EXPERIENCE</text>
+  </g>
+</svg>
