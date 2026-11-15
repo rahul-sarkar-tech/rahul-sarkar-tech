@@ -1,32 +1,32 @@
 <svg width="100%" height="auto" viewBox="0 0 580 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="wacrm_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="ck_bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#10151E" />
       <stop offset="100%" stop-color="#080B10" />
     </linearGradient>
-    <linearGradient id="wacrm_border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#25D366" stop-opacity="0.8" />
+    <linearGradient id="ck_border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25D366" stop-opacity="0.85" />
       <stop offset="50%" stop-color="#1A202C" stop-opacity="0.25" />
       <stop offset="100%" stop-color="#25D366" stop-opacity="0.5" />
     </linearGradient>
   </defs>
 
-  <rect width="580" height="230" rx="14" fill="url(#wacrm_bg)" />
-  <rect x="0.75" y="0.75" width="578.5" height="228.5" rx="13.25" fill="none" stroke="url(#wacrm_border)" stroke-width="1.5" />
+  <rect width="580" height="230" rx="14" fill="url(#ck_bg)" />
+  <rect x="0.75" y="0.75" width="578.5" height="228.5" rx="13.25" fill="none" stroke="url(#ck_border)" stroke-width="1.5" />
 
   <!-- Left: Content Area -->
   <g transform="translate(24, 22)">
     <!-- Pill Tag -->
-    <rect width="165" height="22" rx="4" fill="#0C2618" stroke="#25D366" stroke-opacity="0.4" stroke-width="1" />
+    <rect width="180" height="22" rx="4" fill="#0C2618" stroke="#25D366" stroke-opacity="0.4" stroke-width="1" />
     <text x="8" y="15" fill="#25D366" font-family="'SF Mono', monospace" font-size="10" font-weight="700" letter-spacing="1">💬 OPEN SOURCE • CRM</text>
 
     <!-- Title -->
-    <text x="0" y="52" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" font-weight="900">WACRM</text>
-    <text x="0" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">WhatsApp Automation &amp; CRM Platform</text>
+    <text x="0" y="52" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" font-weight="900">chatKanban</text>
+    <text x="0" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">WhatsApp CRM &amp; Kanban Funnel Platform</text>
 
     <!-- Description -->
     <text x="0" y="100" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Self-hostable CRM template with shared multi-agent</text>
-    <text x="0" y="118" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">inbox, sales pipelines, and broadcast funnels.</text>
+    <text x="0" y="118" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">inbox, Kanban sales pipelines, and broadcast funnels.</text>
 
     <!-- Tech Badges -->
     <g transform="translate(0, 134)">
@@ -44,7 +44,7 @@
     <text x="0" y="186" fill="#25D366" font-family="'SF Mono', monospace" font-size="11" font-weight="700">EXPLORE SOURCE CODE &amp; ARCHITECTURE →</text>
   </g>
 
-  <!-- Right: Miniature WhatsApp UI Preview Widget -->
+  <!-- Right: Miniature WhatsApp + Kanban UI Preview Widget -->
   <g transform="translate(380, 24)">
     <rect width="176" height="182" rx="10" fill="#0A0E17" stroke="#1E2838" stroke-width="1.2" />
     
@@ -52,28 +52,28 @@
     <rect width="176" height="28" rx="10" fill="#141C29" />
     <rect y="18" width="176" height="10" fill="#141C29" />
     <circle cx="16" cy="14" r="5" fill="#25D366" />
-    <text x="28" y="18" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="700">WACRM Live Inbox</text>
+    <text x="28" y="18" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="700">chatKanban Board</text>
 
-    <!-- Chat Bubble 1: Incoming -->
+    <!-- Chat Bubble 1: Incoming Lead -->
     <g transform="translate(10, 38)">
       <rect width="140" height="34" rx="6" fill="#1A2433" />
       <text x="8" y="15" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Lead Ingestion Trigger:</text>
       <text x="8" y="27" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600">"New query from ad funnel"</text>
     </g>
 
-    <!-- Chat Bubble 2: Outgoing Automated -->
+    <!-- Chat Bubble 2: Outgoing Automated Broadcast -->
     <g transform="translate(26, 80)">
       <rect width="140" height="42" rx="6" fill="#075E54" />
       <text x="8" y="14" fill="#D1E7DD" font-family="system-ui, sans-serif" font-size="8.5">Automated Broadcast Flow</text>
-      <text x="8" y="27" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="9" font-weight="600">"Welcome! Instant catalog sent."</text>
+      <text x="8" y="27" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="9" font-weight="600">"Welcome! Catalog sent."</text>
       <text x="8" y="37" fill="#8CE0B0" font-family="'SF Mono', monospace" font-size="7.5">1,420 DELIVERED ✓✓</text>
     </g>
 
-    <!-- Mini Conversion Metric Pill -->
+    <!-- Mini Kanban Pipeline Stage Metric -->
     <g transform="translate(10, 134)">
       <rect width="156" height="36" rx="6" fill="#0D2418" stroke="#25D366" stroke-opacity="0.4" stroke-width="1" />
-      <text x="12" y="16" fill="#25D366" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700">CONVERSION PIPELINE</text>
-      <text x="12" y="29" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="800">4.2x Faster Response Time</text>
+      <text x="12" y="16" fill="#25D366" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700">KANBAN PIPELINE</text>
+      <text x="12" y="29" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="800">4.2x Faster Conversion</text>
     </g>
   </g>
 </svg>

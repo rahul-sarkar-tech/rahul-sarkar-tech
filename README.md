@@ -8,7 +8,7 @@
 
   <!-- 🔥 Dynamic Real-Time Typing Animation -->
   <a href="https://rootthrive.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=FF2A55&center=true&vCenter=true&width=880&lines=Rahul+Sarkar+%E2%80%94+Founder+%40+RootThrive;Systems+Architect+%E2%80%A2+High-Throughput+APIs+%26+Mobile;Benchmarked+At+8%2C884+Req%2FSec+%40+10.75ms+Latency;Open-Source+Creator%3A+WACRM+%E2%80%A2+RootDrop+%E2%80%A2+LMS;Building+Engines+That+Scale+Offline+Businesses+Online" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=FF2A55&center=true&vCenter=true&width=880&lines=Rahul+Sarkar+%E2%80%94+Founder+%40+RootThrive;Systems+Architect+%E2%80%A2+High-Throughput+APIs+%26+Mobile;Benchmarked+At+8%2C884+Req%2FSec+%40+10.75ms+Latency;Open-Source+Creator%3A+chatKanban+%E2%80%A2+RootDrop+%E2%80%A2+LMS;Building+Engines+That+Scale+Offline+Businesses+Online" alt="Typing Header" />
   </a>
 
   <br />
@@ -56,8 +56,8 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/rahul-sarkar-tech/wacrm">
-        <img src="assets/card-wacrm.svg" width="100%" alt="WACRM Project Card" />
+      <a href="https://github.com/rahul-sarkar-tech/chatKanban">
+        <img src="assets/card-chatkanban.svg" width="100%" alt="chatKanban Project Card" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
@@ -116,7 +116,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
     </tr>
     <tr>
       <td><strong>💬 Sales &amp; Automation</strong></td>
-      <td><code>WACRM</code></td>
+      <td><code>chatKanban</code></td>
       <td>Next.js 16, TypeScript, WhatsApp Cloud API</td>
       <td>Direct-response customer conversion pipelines &amp; automated notification flows</td>
     </tr>
@@ -208,11 +208,8 @@ Ready to scale your business infrastructure, engineer custom high-throughput pla
   <a href="https://rootthrive.in">
     <img src="https://img.shields.io/badge/Website-rootthrive.in-cc002e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
-  <a href="https://rahul-sarkar.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-rahul--sarkar.vercel.app-ff5757?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:rootthrive.business@outlook.in">
-    <img src="https://img.shields.io/badge/Email-rootthrive.business@outlook.in-80001d?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" />
+  <a href="mailto:rahulsarkar26@icloud.com">
+    <img src="https://img.shields.io/badge/Email-rahulsarkar26@icloud.com-80001d?style=for-the-badge&logo=icloud&logoColor=white" alt="Email" />
   </a>
 </div>
 
