@@ -1,51 +1,144 @@
 <div align="center">
-  <!-- 🔥 Dynamic Header Banner & Typing Animation -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2800&pause=800&color=FF3E3E&center=true&vCenter=true&width=900&lines=Rahul+Sarkar;Founder+%40+RootThrive;Systems+Architect+%26+Full-Stack+Engineer;High-Scale+APIs+(8.8k%2B+Req%2FSec);Open-Source+Builder%3A+WACRM+%7C+RootDrop;Building+Scalable+Engines+for+Businesses" alt="Typing Animation" />
-</div>
-
-<div align="center">
+  <!-- 🚀 Custom Cybernetic Hero Command Center Banner -->
   <a href="https://rootthrive.in">
-    <img src="https://img.shields.io/badge/Founder-RootThrive-ff3e3e?style=for-the-badge&logo=github&logoColor=white" alt="Founder RootThrive" />
+    <img src="assets/hero.svg" width="100%" alt="Rahul Sarkar Hero Banner" />
   </a>
-  <img src="https://img.shields.io/badge/Scale-8.8k+_Req/Sec-cc0000?style=for-the-badge" alt="8.8k+ Req/Sec" />
-  <img src="https://img.shields.io/badge/Stack-NestJS_%E2%80%A2_Next.js_%E2%80%A2_Flutter-ff6666?style=for-the-badge" alt="Full Stack" />
-  <img src="https://img.shields.io/badge/Open_Source-WACRM_%7C_RootDrop-990000?style=for-the-badge&logo=git&logoColor=white" alt="Open Source" />
-</div>
 
-<br />
+  <br /><br />
 
-<div align="center">
-  <h1>👋 Hey there, I'm Rahul Sarkar!</h1>
-  <p><strong>Systems Architect & Tech Founder specializing in ultra-performant Web & Mobile architectures, high-throughput backends, and scalable digital infrastructure.</strong></p>
+  <!-- 🔥 Dynamic Real-Time Typing Animation -->
+  <a href="https://rootthrive.in">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=FF3E3E&center=true&vCenter=true&width=860&lines=Rahul+Sarkar+%E2%80%94+Founder+%40+RootThrive;Systems+Architect+%E2%80%A2+High-Throughput+APIs+%26+Mobile;Benchmarked+At+8%2C884+Req%2FSec+%40+10.75ms+Latency;Open-Source+Creator%3A+WACRM+%E2%80%A2+RootDrop+%E2%80%A2+LMS;Building+Engines+That+Scale+Offline+Businesses+Online" alt="Typing Header" />
+  </a>
+
+  <br />
+
+  <!-- 🛡️ Metric & Status Badges -->
+  <a href="https://rootthrive.in">
+    <img src="https://img.shields.io/badge/FOUNDER-ROOTTHRIVE-ff3e3e?style=for-the-badge&logo=rocket&logoColor=white" alt="Founder RootThrive" />
+  </a>
+  <img src="https://img.shields.io/badge/THROUGHPUT-8.8k+_REQ/SEC-cc0000?style=for-the-badge&logo=speedtest&logoColor=white" alt="8.8k Req/Sec" />
+  <img src="https://img.shields.io/badge/RUNTIME-ZERO_BLOCKING-990000?style=for-the-badge&logo=node.js&logoColor=white" alt="Zero Blocking" />
+  <img src="https://img.shields.io/badge/ECOSYSTEM-50+_REPOSITORIES-ff6666?style=for-the-badge&logo=github&logoColor=white" alt="50+ Repos" />
 </div>
 
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="divider" />
 </p>
 
-## 🧠 Core Competencies & Philosophy
+```text
+  ██████╗  ███████╗  ██████╗  ████████╗   rahul@rootthrive-core
+  ██╔══██╗ ╚══███╔╝  ██╔══██╗ ╚══██╔══╝   ─────────────────────────────────────────────
+  ██████╔╝   ███╔╝   ██████╔╝    ██║      Role: Founder & Systems Architect @ RootThrive
+  ██╔══██╗  ███╔╝    ██╔══██╗    ██║      OS: macOS Sonoma / Debian Linux
+  ██║  ██║ ███████╗  ██║  ██║    ██║      Runtimes: V8 (Node/Nest) • Dart AOT • Flutter
+  ╚═╝  ╚═╝ ╚══════╝  ╚═╝  ╚═╝    ╚═╝      Database: PostgreSQL (100-socket connection pools)
+                                          Throughput: 8,884 req/s @ 10.75ms avg latency
+                                          Core Focus: Hyperlocal Delivery, CRMs & P2P Protocols
+                                          Status: Deploying scalable revenue engines 🚀
+```
 
-I build highly scalable, close-to-metal digital systems that directly accelerate business growth. By optimizing runtimes, connection pipelines, and event execution loops, I convert standard business software into high-speed revenue engines.
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</p>
 
-<table align="center" width="100%">
+## 🏗️ Systems Architecture Blueprint
+
+How I bridge offline business logistics, high-throughput microservices, and cross-platform native interfaces:
+
+```mermaid
+flowchart LR
+    subgraph INGESTION ["📥 1. Ingestion & Growth"]
+        A["🏢 Offline Operations & Retail"] --> B["💬 WhatsApp Cloud API & CRM"]
+        C["🛒 Mobile & Web Consumer Clients"] --> B
+    end
+
+    subgraph ENGINE ["⚡ 2. RootThrive Core Engine"]
+        B --> D["🚀 NestJS Scalable API Gateway\n(Non-blocking V8 Event Loop)"]
+        D --> E["🏊 PostgreSQL Pool\n(100 Sockets • TypeORM)"]
+        D --> F["⚡ Realtime Webhooks & Events"]
+    end
+
+    subgraph CLIENTS ["📱 3. Realtime Edge & Clients"]
+        D --> G["📱 Flutter Cross-Platform Apps\n(Riverpod • Haptics • Slivers)"]
+        D --> H["📦 RootDrop P2P Sockets\n(45MB/s Parallel Pipes)"]
+    end
+
+    classDef default fill:#11131a,stroke:#ff3e3e,stroke-width:1.5px,color:#fff;
+    classDef highlight fill:#261019,stroke:#ff3e3e,stroke-width:2px,color:#ff6b6b;
+    class D,E highlight;
+```
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</p>
+
+## ⚡ Throughput & Performance Benchmarks
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│ ⚡ HTTP CONCURRENCY BENCHMARK (Requests / Second)                      │
+├────────────────────────────────────────────────────────────────────────┤
+│ Standard Monolith / Sync stdout  ░░░░ 142 req/s  (V8 Event-Loop Lag)   │
+│ RootThrive Optimized Engine      ████████████████ 8,884 req/s (10.75ms)│
+├────────────────────────────────────────────────────────────────────────┤
+│ Result: +6,100% Throughput Boost • Zero Event-Loop Starvation          │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</p>
+
+## 🚀 Featured Systems & Open-Source Repositories
+
+<table width="100%">
   <tr>
-    <td valign="top" width="50%">
-      <h3>💡 My Systems Philosophy</h3>
-      <blockquote>
-        🚀 <strong>Execution > Theory</strong><br />
-        ⚡ <strong>Systems > Hard Work</strong><br />
-        📈 <strong>Revenue > Vanity Metrics</strong><br />
-        💎 <strong>Speed & Polish > Endless Planning</strong>
-      </blockquote>
+    <td width="50%" valign="top">
+      <h3>💬 <a href="https://github.com/rahul-sarkar-tech/wacrm">WACRM — WhatsApp CRM &amp; Automation</a></h3>
+      <p>Self-hostable CRM template built for WhatsApp Business automation. Features a shared multi-agent inbox, contact segmentation, sales pipelines, broadcast campaigns, and automated trigger workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+        <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      </p>
+      <p>➔ <a href="https://github.com/rahul-sarkar-tech/wacrm"><strong>Explore Source Code &amp; Architecture »</strong></a></p>
     </td>
-    <td valign="top" width="50%">
-      <h3>🎯 Core Focus Areas</h3>
-      <ul>
-        <li><strong>High-Throughput Web & Mobile Architectures</strong> (NestJS, Next.js, Flutter)</li>
-        <li><strong>Main-Thread Event-Loop Optimization (V8)</strong> & Zero-Blocking Runtimes</li>
-        <li><strong>Database connection pooling</strong> & high-concurrency scaling</li>
-        <li><strong>WhatsApp & Lead-Acquisition Automation</strong> for offline businesses</li>
-      </ul>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-backend">RootThrive Academy LMS Suite</a></h3>
+      <p>High-concurrency e-learning engine benchmarked at <strong>8,884 Req/Sec</strong> (10.75ms latency). Built with NestJS, TypeORM, and PostgreSQL connection pooling, paired with a modern Flutter mobile client.</p>
+      <p>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Riverpod-00599C?style=flat-square" alt="Riverpod" />
+      </p>
+      <p>➔ <a href="https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-frontend"><strong>Frontend Client</strong></a> | <a href="https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-backend"><strong>Backend Core »</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 <a href="https://github.com/rahul-sarkar-tech/rootdrop">RootDrop P2P Transfer Engine</a></h3>
+      <p>High-speed, privacy-first peer-to-peer file sharing protocol. Reaches <strong>45MB/s+</strong> local transfer over 5GHz Wi-Fi with custom socket pooling, chunk-based streaming, and mDNS peer discovery.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+        <img src="https://img.shields.io/badge/TCP/UDP_Sockets-FF3E3E?style=flat-square" alt="Sockets" />
+        <img src="https://img.shields.io/badge/P2P_Discovery-000000?style=flat-square" alt="P2P" />
+      </p>
+      <p>➔ <a href="https://github.com/rahul-sarkar-tech/rootdrop"><strong>P2P Engine</strong></a> | <a href="https://github.com/rahul-sarkar-tech/rootdrop-website"><strong>Web Portal »</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🪙 <a href="https://github.com/rahul-sarkar-tech/xahau-xmerch-demo">Xahau xMerch Web3 DApp</a></h3>
+      <p>Decentralized Web3 commerce application on the Xahau Network. Features non-custodial Xaman wallet signing (QR / deep link), instant testnet settlement, and real-time on-chain ledger confirmation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Xahau_XRPL-23292F?style=flat-square" alt="Xahau" />
+        <img src="https://img.shields.io/badge/Xaman_Wallet-3851DF?style=flat-square" alt="Xaman" />
+      </p>
+      <p>➔ <a href="https://github.com/rahul-sarkar-tech/xahau-xmerch-demo"><strong>Explore DApp Repository »</strong></a></p>
     </td>
   </tr>
 </table>
@@ -54,58 +147,46 @@ I build highly scalable, close-to-metal digital systems that directly accelerate
   <img src="assets/divider.svg" width="100%" alt="divider" />
 </p>
 
-## 🚀 Featured Systems & Open-Source Implementations
+## 🏢 RootThrive Production Fleet
 
-### 💬 WACRM — Self-Hostable WhatsApp CRM Platform
-> **A complete, self-hostable CRM and automation template for WhatsApp Business**
+An overview of business-critical systems engineered and deployed across 50+ repositories:
 
-*   **⚡ Core Capability**: Full-stack shared inbox, contact management, sales conversion pipelines, broadcast campaigns, and automated trigger workflows.
-*   **⚙️ Architecture**: Modular TypeScript template with webhook listeners, multi-agent support, and no-code business automation flows.
-*   **🛠️ Tech Stack**: `TypeScript` • `Next.js` • `Node.js` • `TailwindCSS` • `WhatsApp Cloud API`
-*   📂 **Source Code**: [💬 WACRM Open-Source Repository](https://github.com/rahul-sarkar-tech/wacrm)
-
-<br />
-
-### ⚡ RootThrive Academy LMS Suite
-> **A full-stack, high-concurrency Learning Management System**
-
-*   **⚡ Performance Engine**: Tuned the NestJS database handler to scale to a peak of **8,884 Requests/Sec** with an average response time of **10.75ms** (a **6,100% throughput increase**).
-*   **⚙️ Systems Optimization**: Eliminated synchronous `stdout` main-thread query logging to free the V8 event loop and scaled TypeORM PostgreSQL pool allocations to **100 sockets**.
-*   **📱 Native Mobile Client**: Developed a modern Flutter app featuring expandable sliver viewports, interactive search focus states with glow animations, and Riverpod state management.
-*   **🛠️ Tech Stack**: `NestJS` • `TypeORM` • `PostgreSQL` • `Passport JWT` • `Razorpay Webhooks` • `Flutter` • `Riverpod`
-*   📂 **Source Code**: [📱 Frontend Client App](https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-frontend) | [⚙️ Backend High-Scale Engine](https://github.com/rahul-sarkar-tech/rootthrive-coaching-app-backend)
-
-<br />
-
-### 📦 RootDrop — P2P High-Speed Transfer Engine
-> **An open-source, privacy-first peer-to-peer file sharing engine for cross-platform devices**
-
-*   **⚡ Performance Throughput**: Achieves blazing-fast local transfer rates averaging **45MB/s+ over 5GHz Wi-Fi** (and **7MB/s over 2.4GHz Wi-Fi**) through optimized local socket buffering, dynamic file chunking, and multi-pipe parallel connections to maximize TCP throughput.
-*   **⚙️ Systems & Networking**: Built close-to-metal using advanced socket programming, local socket pooling, custom TCP/UDP management, and multi-pipe network discovery.
-*   **📱 Cross-Platform Ecosystem**: Developed natively in Flutter, fully deployed for **macOS** and **Android**, with active blueprints rolling out for **Linux**, Windows, and iOS.
-*   **🛠️ Tech Stack**: `Flutter` • `Dart` • `TCP/UDP Sockets` • `P2P Network Discovery` • `Systems Programming`
-*   📂 **Source Code**: [📦 Open-Source Engine](https://github.com/rahul-sarkar-tech/rootdrop) | [🌐 Official Web Portal](https://github.com/rahul-sarkar-tech/rootdrop-website)
-
-<br />
-
-### 🪙 Xahau xMerch — Web3 DApp
-> **Production-ready Web3 decentralized commerce application on the Xahau Network**
-
-*   **⚡ Ledger Integration**: Native non-custodial Xaman wallet signing (QR & deep links), 1 XAH payment settlement flow on Xahau Testnet (NetworkID: 21338), and real-time on-chain ledger confirmation.
-*   **🛠️ Tech Stack**: `TypeScript` • `Next.js 16` • `Tailwind CSS` • `Xahau Network (XRPL)` • `xMerch CLI` • `Xaman SDK`
-*   📂 **Source Code**: [⚡ Web3 DApp Repository](https://github.com/rahul-sarkar-tech/xahau-xmerch-demo)
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
-
-## 🏢 Production Platforms & Ecosystem (RootThrive)
-
-Beyond public open-source software, I lead systems engineering at **RootThrive**, delivering end-to-end production software:
-
-*   **🛒 Hyperlocal Quick-Commerce & Delivery**: Production multi-vendor platforms (`Door2Door`, `VivBazaar`, `Biswas Market`) featuring customer Flutter apps, real-time dispatch dashboards, order tracking, and high-concurrency database backends.
-*   **💼 Workforce & Job Portals**: Scalable workforce matching engines (`Kaajsathi`) connecting service providers and businesses with real-time notifications and location-based discovery.
-*   **⚙️ Custom ERP & Coaching Suites**: Modular business platforms with role-based access control (RBAC), automated invoice generation, and payment gateway webhooks.
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">Domain</th>
+      <th align="left">Production Systems</th>
+      <th align="left">Architecture &amp; Core Stack</th>
+      <th align="left">Business Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>🛒 Hyperlocal &amp; Delivery</strong></td>
+      <td><code>Door2Door</code> • <code>VivBazaar</code> • <code>Biswas Market</code></td>
+      <td>Flutter (iOS &amp; Android), Web Admin, Blade, PostGIS</td>
+      <td>End-to-end multi-vendor commerce with real-time dispatch &amp; cart checkout</td>
+    </tr>
+    <tr>
+      <td><strong>💼 Workforce &amp; Services</strong></td>
+      <td><code>Kaajsathi Core</code> • <code>Kaajsathi Client</code></td>
+      <td>TypeScript, Node.js, WebSockets, FCM Push</td>
+      <td>On-demand workforce matching engine connecting local businesses &amp; workers</td>
+    </tr>
+    <tr>
+      <td><strong>⚡ P2P &amp; Systems</strong></td>
+      <td><code>RootDrop</code> • <code>RootDrop Portal</code></td>
+      <td>Flutter, Dart, Custom TCP/UDP Sockets</td>
+      <td>High-speed parallel chunk transfer (45MB/s+) eliminating cloud storage cost</td>
+    </tr>
+    <tr>
+      <td><strong>💬 Sales &amp; Automation</strong></td>
+      <td><code>WACRM</code></td>
+      <td>Next.js 16, TypeScript, WhatsApp Cloud API</td>
+      <td>Direct-response customer conversion pipelines &amp; automated notification flows</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="divider" />
@@ -113,38 +194,39 @@ Beyond public open-source software, I lead systems engineering at **RootThrive**
 
 ## 🛡️ Systems Engineering & Architectural Guardrails
 
-When constructing production platforms, I build around a strict set of software engineering principles to guarantee long-term maintainability, zero-trust security, and maximum performance:
-
-*   **🏗️ Decoupled Modular Design**: Standardizing on **Clean Architecture** and **Domain-Driven Design (DDD)** concepts to enforce strict boundaries between business domains.
-*   **⚡ Zero Event-Loop Blocking**: Auditing V8/Dart runtimes to ensure heavy computational logic is safely offloaded, guaranteeing the main thread remains completely responsive under massive network operations.
-*   **🔒 Hardened Security Posture**: Enforcing secure environment isolation, sanitizing database queries, whitelisting CORS origins, implementing strict JWT lifespans, and stripping all secrets from git history.
-*   **🏊 Connection Pool Optimization**: Tuning database handles, TCP window buffers, loopback Unix sockets, and client connections proactively to scale system efficiency under heavy concurrency.
+*   **🏗️ Clean Architecture & DDD**: Strict layer decoupling ensures business logic remains independent from frameworks and database adapters.
+*   **⚡ Zero Main-Thread Blocking**: Strict V8 and Dart runtime audits ensure all intensive computation and I/O are offloaded, preserving full event-loop responsiveness.
+*   **🔒 Zero-Trust Security**: Whitelisted origins, cryptographic JWT verification, input sanitization, and automated secret-detection pipelines.
+*   **🏊 Proactive Pool Tuning**: PostgreSQL sockets scaled to 100 handles, kernel TCP buffers configured for maximum burst concurrency.
 
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="divider" />
 </p>
 
-## ⚙️ Systems Engineering Stack
+## ⚙️ Systems Engineering Tech Matrix
 
 <table align="center" width="100%">
   <tr>
     <td align="center" valign="top" width="33.3%">
-      <h3>🌐 Web Front-End</h3>
-      <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,html,css,figma" alt="Web Frontend Stack" />
+      <h3>🌐 Frontend &amp; UI</h3>
+      <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,html,css,figma" alt="Frontend Stack" />
       <br /><br />
-      <code>Next.js</code> • <code>React</code> • <code>TailwindCSS</code> • <code>TypeScript</code> • <code>Figma</code>
+      <code>Next.js 16</code> • <code>React</code> • <code>TailwindCSS</code><br />
+      <code>TypeScript</code> • <code>Figma UI/UX</code>
     </td>
     <td align="center" valign="top" width="33.3%">
-      <h3>⚙️ Backend & Database</h3>
+      <h3>⚡ Backend &amp; Database</h3>
       <img src="https://skillicons.dev/icons?i=nestjs,nodejs,express,postgres,supabase,firebase,php" alt="Backend Stack" />
       <br /><br />
-      <code>NestJS</code> • <code>Node.js</code> • <code>PostgreSQL</code> • <code>TypeORM</code> • <code>Supabase</code>
+      <code>NestJS</code> • <code>Node.js</code> • <code>PostgreSQL</code><br />
+      <code>TypeORM</code> • <code>Supabase</code> • <code>Firebase</code>
     </td>
     <td align="center" valign="top" width="33.3%">
-      <h3>📱 Mobile & Infrastructure</h3>
-      <img src="https://skillicons.dev/icons?i=flutter,dart,docker,linux,git,github,bash" alt="Mobile Stack & Tooling" />
+      <h3>📱 Mobile &amp; DevOps</h3>
+      <img src="https://skillicons.dev/icons?i=flutter,dart,docker,linux,git,github,bash" alt="Mobile Stack" />
       <br /><br />
-      <code>Flutter</code> • <code>Dart</code> • <code>Riverpod</code> • <code>Docker</code> • <code>Linux</code> • <code>Git</code>
+      <code>Flutter</code> • <code>Dart</code> • <code>Riverpod</code><br />
+      <code>Docker</code> • <code>Linux</code> • <code>CI/CD Actions</code>
     </td>
   </tr>
 </table>
@@ -153,21 +235,21 @@ When constructing production platforms, I build around a strict set of software 
   <img src="assets/divider.svg" width="100%" alt="divider" />
 </p>
 
-## 📊 Live GitHub Diagnostics
+## 📊 Live GitHub Diagnostics & Telemetry
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td align="center" valign="top" width="50%">
-      <img src="https://streak-stats.demolab.com?user=rahul-sarkar-tech&theme=dark&background=0f0f11&border=ff3e3e&stroke=ff3e3e&ring=ff3e3e&fire=ff3e3e&currStreakLabel=ff3e3e&hide_border=true" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com?user=rahul-sarkar-tech&theme=dark&background=0b0c10&border=ff3e3e&stroke=ff3e3e&ring=ff3e3e&fire=ff3e3e&currStreakLabel=ff3e3e&hide_border=false" width="100%" alt="GitHub Streak" />
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=rahul-sarkar-tech&show_icons=true&theme=dark&bg_color=0f0f11&hide_border=true&title_color=ff3e3e&icon_color=ff3e3e&text_color=e0e0e0&count_private=true" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=rahul-sarkar-tech&show_icons=true&theme=dark&bg_color=0b0c10&border_color=ff3e3e&title_color=ff3e3e&icon_color=ff3e3e&text_color=e0e0e0&count_private=true" width="100%" alt="GitHub Stats" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" valign="top">
       <br />
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=rahul-sarkar-tech&layout=compact&theme=dark&bg_color=0f0f11&hide_border=true&title_color=ff3e3e&text_color=e0e0e0" alt="Top Languages" />
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=rahul-sarkar-tech&layout=compact&theme=dark&bg_color=0b0c10&border_color=ff3e3e&title_color=ff3e3e&text_color=e0e0e0" width="80%" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -178,7 +260,7 @@ When constructing production platforms, I build around a strict set of software 
 
 ## 📬 Connect & Collaborate
 
-Get in touch for systems architecture consulting, custom high-performance developments, or automated pipeline integration.
+Ready to scale your business infrastructure, engineer custom high-throughput platforms, or deploy automated WhatsApp workflows?
 
 <div align="center">
   <a href="https://www.linkedin.com/in/rahul-rootthrive/">

@@ -1,0 +1,136 @@
+<svg width="100%" height="auto" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0C10" />
+      <stop offset="50%" stop-color="#11131A" />
+      <stop offset="100%" stop-color="#07080B" />
+    </linearGradient>
+
+    <!-- Crimson Glow Gradient -->
+    <radialGradient id="glow_grad" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FF3E3E" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#FF1E56" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow_grad_right" cx="85%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#FF3E3E" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#790019" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E3E" stop-opacity="0.7" />
+      <stop offset="40%" stop-color="#2D151E" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#FF3E3E" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#1A1C23" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1D27" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0F1118" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Text Highlight Gradient -->
+    <linearGradient id="text_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1" />
+      <circle cx="30" cy="30" r="1" fill="#FF3E3E" fill-opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg_grad)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glow_grad)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glow_grad_right)" />
+  <rect x="1" y="1" width="1198" height="318" rx="15" fill="none" stroke="url(#border_grad)" stroke-width="1.5" />
+
+  <!-- Top Status Bar -->
+  <g transform="translate(48, 42)">
+    <!-- Pulsing Live Dot -->
+    <circle cx="6" cy="6" r="5" fill="#FF3E3E">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="6" cy="6" r="9" fill="none" stroke="#FF3E3E" stroke-opacity="0.4">
+      <animate attributeName="r" values="6;11;6" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="10" fill="#FF6B6B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">ROOTTHRIVE CORE // SYSTEMS ARCHITECT</text>
+  </g>
+
+  <!-- Main Identity Area -->
+  <g transform="translate(48, 115)">
+    <text x="0" y="0" fill="url(#text_grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', sans-serif" font-size="44" font-weight="900" letter-spacing="1">RAHUL SARKAR</text>
+    <text x="0" y="32" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" letter-spacing="0.5">Founder @ RootThrive • Web &amp; Mobile Systems Architect • Open-Source Builder</text>
+    <text x="0" y="62" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400">Engineering high-throughput backends, zero-blocking runtimes &amp; revenue-focused products.</text>
+  </g>
+
+  <!-- Bottom Tech Tags -->
+  <g transform="translate(48, 260)">
+    <rect x="0" y="0" width="85" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="42.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">NESTJS</text>
+
+    <rect x="95" y="0" width="88" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="139" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">NEXT.JS 16</text>
+
+    <rect x="193" y="0" width="85" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="235.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">FLUTTER</text>
+
+    <rect x="288" y="0" width="105" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="340.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">POSTGRESQL</text>
+
+    <rect x="403" y="0" width="75" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="440.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">DART</text>
+
+    <rect x="488" y="0" width="115" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="545.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">P2P SOCKETS</text>
+
+    <rect x="613" y="0" width="125" height="26" rx="6" fill="#1E2330" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+    <text x="675.5" y="17" fill="#F1F5F9" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">WHATSAPP CRM</text>
+  </g>
+
+  <!-- Right Side Stat Metrics HUD -->
+  <g transform="translate(800, 36)">
+    <!-- Stat Box 1: Peak Req/Sec -->
+    <g transform="translate(0, 0)">
+      <rect width="165" height="105" rx="10" fill="url(#card_grad)" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+      <text x="18" y="28" fill="#FF6B6B" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">MAX THROUGHPUT</text>
+      <text x="18" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="900">8,884</text>
+      <text x="18" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">req / sec @ 10.75ms</text>
+    </g>
+
+    <!-- Stat Box 2: Repositories -->
+    <g transform="translate(180, 0)">
+      <rect width="165" height="105" rx="10" fill="url(#card_grad)" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+      <text x="18" y="28" fill="#FF6B6B" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">FLEET SCALE</text>
+      <text x="18" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="900">50+</text>
+      <text x="18" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">repos engineered</text>
+    </g>
+
+    <!-- Stat Box 3: P2P Wi-Fi Transfer -->
+    <g transform="translate(0, 120)">
+      <rect width="165" height="105" rx="10" fill="url(#card_grad)" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+      <text x="18" y="28" fill="#FF6B6B" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">P2P SPEED</text>
+      <text x="18" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="900">45 MB/s+</text>
+      <text x="18" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">RootDrop local P2P</text>
+    </g>
+
+    <!-- Stat Box 4: Architecture Status -->
+    <g transform="translate(180, 120)">
+      <rect width="165" height="105" rx="10" fill="url(#card_grad)" stroke="#FF3E3E" stroke-opacity="0.3" stroke-width="1" />
+      <text x="18" y="28" fill="#FF6B6B" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">EVENT LOOP</text>
+      <text x="18" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="900">0 ms</text>
+      <text x="18" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">non-blocking design</text>
+    </g>
+  </g>
+</svg>

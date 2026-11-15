@@ -1,12 +1,18 @@
-<svg width="100%" height="2" viewBox="0 0 1200 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <line y1="1" x2="1200" y2="1" stroke="url(#paint0_linear)" stroke-width="2"/>
+<svg width="100%" height="6" viewBox="0 0 1200 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="3" x2="1200" y2="3" stroke="url(#line_grad)" stroke-width="1.5" />
+  <line x1="100" y1="3" x2="1100" y2="3" stroke="url(#glow_grad)" stroke-width="4" stroke-opacity="0.4" />
   <defs>
-    <linearGradient id="paint0_linear" x1="0" y1="2" x2="1200" y2="2" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF3E3E" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#FF3E3E" stop-opacity="0.8"/>
-      <stop offset="0.5" stop-color="#FF3E3E"/>
-      <stop offset="0.8" stop-color="#FF3E3E" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#FF3E3E" stop-opacity="0"/>
+    <linearGradient id="line_grad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF3E3E" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#FF3E3E" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#FF3E3E" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#FF3E3E" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF3E3E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow_grad" x1="100" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF1E56" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF3E3E" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF1E56" stop-opacity="0"/>
     </linearGradient>
   </defs>
 </svg>
