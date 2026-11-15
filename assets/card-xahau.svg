@@ -1,46 +1,81 @@
-<svg width="100%" height="auto" viewBox="0 0 580 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="auto" viewBox="0 0 580 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card_bg_4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141420" />
-      <stop offset="100%" stop-color="#090910" />
+    <linearGradient id="xh_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161220" />
+      <stop offset="100%" stop-color="#0A0812" />
     </linearGradient>
-    <linearGradient id="card_border_4" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="xh_border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#A855F7" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#3B1C54" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#3B1C54" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.6" />
     </linearGradient>
   </defs>
 
-  <rect width="580" height="210" rx="12" fill="url(#card_bg_4)" />
-  <rect x="0.75" y="0.75" width="578.5" height="208.5" rx="11.25" fill="none" stroke="url(#card_border_4)" stroke-width="1.5" />
+  <rect width="580" height="230" rx="14" fill="url(#xh_bg)" />
+  <rect x="0.75" y="0.75" width="578.5" height="228.5" rx="13.25" fill="none" stroke="url(#xh_border)" stroke-width="1.5" />
 
-  <!-- Category Tag -->
-  <rect x="24" y="20" width="180" height="22" rx="4" fill="#291638" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1" />
-  <text x="32" y="35" fill="#C084FC" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" font-weight="700" letter-spacing="1">🪙 WEB3 DAPP • XRPL</text>
+  <!-- Left: Content Area -->
+  <g transform="translate(24, 22)">
+    <!-- Pill Tag -->
+    <rect width="180" height="22" rx="4" fill="#2D153D" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1" />
+    <text x="8" y="15" fill="#C084FC" font-family="'SF Mono', monospace" font-size="10" font-weight="700" letter-spacing="1">🪙 WEB3 DAPP • XRPL</text>
 
-  <!-- Title & Headline -->
-  <text x="24" y="70" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900">Xahau xMerch</text>
-  <text x="180" y="70" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500">Decentralized Web3 Commerce</text>
+    <!-- Title -->
+    <text x="0" y="52" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" font-weight="900">Xahau xMerch</text>
+    <text x="0" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Decentralized Web3 Commerce</text>
 
-  <!-- Summary Description -->
-  <text x="24" y="98" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">Non-custodial Xaman wallet signing (QR / deep link), instant 1 XAH payment</text>
-  <text x="24" y="118" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">settlement on Xahau Testnet, and real-time on-chain ledger confirmation.</text>
+    <!-- Description -->
+    <text x="0" y="100" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Non-custodial Xaman wallet signing &amp; payment flow.</text>
+    <text x="0" y="118" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Instant settlement &amp; real-time on-chain confirmation.</text>
 
-  <!-- Tech Stack Badges -->
-  <g transform="translate(24, 142)">
-    <rect x="0" y="0" width="85" height="22" rx="4" fill="#241B33" />
-    <text x="42.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">TypeScript</text>
+    <!-- Tech Badges -->
+    <g transform="translate(0, 134)">
+      <rect x="0" y="0" width="76" height="20" rx="4" fill="#241B33" />
+      <text x="38" y="14" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="600" text-anchor="middle">TypeScript</text>
 
-    <rect x="92" y="0" width="82" height="22" rx="4" fill="#241B33" />
-    <text x="133" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Next.js 16</text>
+      <rect x="82" y="0" width="74" height="20" rx="4" fill="#241B33" />
+      <text x="119" y="14" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Next.js 16</text>
 
-    <rect x="181" y="0" width="105" height="22" rx="4" fill="#241B33" />
-    <text x="233.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Xahau Network</text>
+      <rect x="162" y="0" width="94" height="20" rx="4" fill="#241B33" />
+      <text x="209" y="14" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Xahau XRPL</text>
 
-    <rect x="293" y="0" width="95" height="22" rx="4" fill="#241B33" />
-    <text x="340.5" y="15" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="10" font-weight="600" text-anchor="middle">Xaman SDK</text>
+      <rect x="262" y="0" width="82" height="20" rx="4" fill="#241B33" />
+      <text x="303" y="14" fill="#E2E8F0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="600" text-anchor="middle">Xaman SDK</text>
+    </g>
+
+    <!-- CTA -->
+    <text x="0" y="186" fill="#C084FC" font-family="'SF Mono', monospace" font-size="11" font-weight="700">ACCESS WEB3 DAPP REPOSITORY →</text>
   </g>
 
-  <!-- Bottom CTA -->
-  <text x="24" y="190" fill="#C084FC" font-family="'SF Mono', monospace" font-size="11" font-weight="700">ACCESS WEB3 DAPP REPOSITORY →</text>
+  <!-- Right: Miniature On-Chain Receipt Widget -->
+  <g transform="translate(380, 24)">
+    <rect width="176" height="182" rx="10" fill="#0E0A17" stroke="#2B1A3D" stroke-width="1.2" />
+
+    <!-- Widget Header -->
+    <rect width="176" height="28" rx="10" fill="#1C1429" />
+    <rect y="18" width="176" height="10" fill="#1C1429" />
+    <circle cx="16" cy="14" r="5" fill="#A855F7" />
+    <text x="28" y="18" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="700">On-Chain Ledger</text>
+
+    <!-- Payment Amount -->
+    <g transform="translate(10, 36)">
+      <rect width="156" height="42" rx="6" fill="#241638" />
+      <text x="10" y="16" fill="#C084FC" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700">PAYMENT SETTLED</text>
+      <text x="10" y="34" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="900">1.000 <tspan font-size="10" fill="#A855F7" font-weight="700">XAH</tspan></text>
+    </g>
+
+    <!-- Xaman Wallet Signature -->
+    <g transform="translate(10, 84)">
+      <rect width="156" height="42" rx="6" fill="#152033" />
+      <text x="10" y="16" fill="#38EF7D" font-family="'SF Mono', monospace" font-size="8.5" font-weight="700">XAMAN SIGNATURE ✓</text>
+      <text x="10" y="32" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9" font-weight="600">Non-Custodial QR DeepLink</text>
+    </g>
+
+    <!-- Ledger Block Info -->
+    <g transform="translate(10, 134)">
+      <rect width="156" height="36" rx="6" fill="#171224" stroke="#A855F7" stroke-opacity="0.4" stroke-width="1" />
+      <text x="10" y="15" fill="#94A3B8" font-family="'SF Mono', monospace" font-size="8.5">LEDGER BLOCK</text>
+      <text x="10" y="28" fill="#FFFFFF" font-family="'SF Mono', monospace" font-size="9.5" font-weight="700">Confirmed #21338</text>
+    </g>
+  </g>
 </svg>

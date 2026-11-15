@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- 🚀 Custom Cybernetic Hero Command Center Banner -->
+  <!-- 🚀 Custom Cybernetic 3D Hero Command Center -->
   <a href="https://rootthrive.in">
     <img src="assets/hero.svg" width="100%" alt="Rahul Sarkar Cybernetic Command Center" />
   </a>
@@ -22,18 +22,14 @@
   <img src="https://img.shields.io/badge/ECOSYSTEM-50+_REPOSITORIES-ff5757?style=for-the-badge&logo=github&logoColor=white" alt="50+ Repos" />
 </div>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 <!-- 🖥️ macOS Cyber Terminal Window -->
 <p align="center">
   <img src="assets/terminal.svg" width="100%" alt="RootThrive Cyber Terminal" />
 </p>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## 🏗️ Systems Architecture Blueprint
 
@@ -43,9 +39,7 @@ An end-to-end telemetry view of how I connect offline business logistics, high-t
   <img src="assets/architecture.svg" width="100%" alt="System Architecture Blueprint" />
 </p>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## ⚡ Concurrency & Performance Engine Diagnostics
 
@@ -55,9 +49,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
   <img src="assets/benchmark.svg" width="100%" alt="Concurrency & Latency Benchmark" />
 </p>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## 🚀 Featured Systems & Open-Source Repositories
 
@@ -88,9 +80,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
   </tr>
 </table>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 <details>
 <summary><b>🏢 RootThrive Production Fleet (50+ Repositories &amp; Microservices)</b> — <i>Click to Expand</i></summary>
@@ -148,9 +138,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
 
 </details>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## ⚙️ Systems Engineering Tech Matrix
 
@@ -180,9 +168,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
   </tr>
 </table>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## 🐍 Activity Snake & Live Telemetry
 
@@ -209,9 +195,7 @@ Benchmarking V8 event loop optimization and PostgreSQL pool allocation under hea
   </tr>
 </table>
 
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br />
 
 ## 📬 Connect & Transmit
 
@@ -232,11 +216,7 @@ Ready to scale your business infrastructure, engineer custom high-throughput pla
   </a>
 </div>
 
-<br />
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="divider" />
-</p>
+<br /><br />
 
 <div align="center">
   <strong>"I design systems that power entire businesses, not just applications."</strong>
